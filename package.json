@@ -1,0 +1,36 @@
+{
+    "name": "vamtiger-get-string-table",
+    "version": "0.0.2-0",
+    "description": "Get a string table for a defined table object",
+    "main": "build",
+    "scripts": {
+        "test": "mocha build/test --recursive",
+        "build": "tsc",
+        "commit": "vamtigerNodeTypescriptCommit --push --publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/vamtiger-project/vamtiger-get-string-table.git"
+    },
+    "keywords": [
+        "vamtiger",
+        "string",
+        "table"
+    ],
+    "author": "Vamtiger Immortalles",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vamtiger-project/vamtiger-get-string-table/issues"
+    },
+    "homepage": "https://github.com/vamtiger-project/vamtiger-get-string-table#readme",
+    "types": "build/types/index.d.ts",
+    "devDependencies": {
+        "@types/chai": "^4.1.2",
+        "@types/mocha": "^5.0.0",
+        "@types/node": "^9.6.1",
+        "chai": "^4.1.2",
+        "mocha": "^5.0.5",
+        "typescript": "^2.8.1",
+        "vamtiger-node-typescript-commit": "0.0.51"
+    }
+}
