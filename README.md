@@ -27,8 +27,9 @@ const someTabularData = {
     // Optional, but recommended
     header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
     body: [
-        ['Row 1 Col 1', 'Row 1 Col 2', 'Row 1 Col 3'],
-        ['Row 2 Col 1', 'Row 2 Col 2', 'Row 2 Col 3']
+        ['Value 1', 'Value 1', 'Value 1'],
+        ['Value 1', 'Value 1', 'Value 1'],
+        ['Value 1', 'Value 1', 'Value 1']
     ]
 }
 const stringTable = getStringTable(someTabularData);
@@ -52,8 +53,9 @@ const someTabularData = {
     // Optional, but recommended
     header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
     body: [
-        ['Row 1 Col 1', 'Row 1 Col 2', 'Row 1 Col 3'],
-        ['Row 2 Col 1', 'Row 2 Col 2', 'Row 2 Col 3']
+        ['Value 1', 'Value 1', 'Value 1'],
+        ['Value 1', 'Value 1', 'Value 1'],
+        ['Value 1', 'Value 1', 'Value 1']
     ],
     hideMarker: true
 }
