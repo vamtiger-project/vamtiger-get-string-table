@@ -48,7 +48,8 @@ const stringTable = getStringTable(someTabularData);
 Table markers can be hidden, by setting the __**hideMarker**__ option to __**true**__.
 ```javascript
 const someTabularData = {
-    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'], // Optional, but recommended
+    // Optional, but recommended
+    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
     body: [
         ['Row 1 Col 1', 'Row 1 Col 2', 'Row 1 Col 3'],
         ['Row 2 Col 1', 'Row 2 Col 2', 'Row 2 Col 3']
