@@ -1,6 +1,6 @@
 {
     "name": "vamtiger-get-string-table",
-    "version": "0.0.5-0",
+    "version": "0.0.5",
     "description": "Get a string table for a defined table object",
     "main": "build",
     "scripts": {
