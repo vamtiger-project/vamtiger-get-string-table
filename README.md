@@ -25,7 +25,7 @@ A representative string table can be reference for structured tabular data.
 ```javascript
 const someTabularData = {
     // Optional, but recommended
-    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
+    header: ['Column 1', 'Column 1', 'Column 1'],
     body: [
         ['Value 1', 'Value 1', 'Value 1'],
         ['Value 1', 'Value 1', 'Value 1'],
@@ -51,7 +51,7 @@ Table markers can be hidden, by setting the __**hideMarker**__ option to __**tru
 ```javascript
 const someTabularData = {
     // Optional, but recommended
-    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
+    header: ['Column 1', 'Column 1', 'Column 1'],
     body: [
         ['Value 1', 'Value 1', 'Value 1'],
         ['Value 1', 'Value 1', 'Value 1'],
