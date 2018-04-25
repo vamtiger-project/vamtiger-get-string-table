@@ -24,7 +24,8 @@ const getStringTable = require('vamtiger-get-string-table').default;
 A representative string table can be reference for structured tabular data.
 ```javascript
 const someTabularData = {
-    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'], // Optional, but recommended
+    // Optional, but recommended
+    header: ['Some Heading', 'Another Heading', 'Yet Another Heading'],
     body: [
         ['Row 1 Col 1', 'Row 1 Col 2', 'Row 1 Col 3'],
         ['Row 2 Col 1', 'Row 2 Col 2', 'Row 2 Col 3']
