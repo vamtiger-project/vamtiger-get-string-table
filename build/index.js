@@ -29,8 +29,9 @@ exports.default = (params) => {
         header: headerString,
         body: bodyRowStrings
     });
-    if (markerRegex)
+    if (markerRegex) {
         tableString = tableString.replace(markerRegex, ' ');
+    }
     return tableString.trim();
 };
 //# sourceMappingURL=index.js.map
