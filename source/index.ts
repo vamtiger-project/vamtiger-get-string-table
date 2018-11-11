@@ -21,7 +21,7 @@ export default (params: Params) => {
     const markerRegex = markerPattern && new RegExp(markerPattern, 'gm');
     const rows = header && [header].concat(body) || body;
     const columnSizes = getColumnSizes({ rows });
-    const headerString = header && getRowString({ 
+    const headerString = header && getRowString({
         row: header,
         columnSizes
     });
@@ -35,8 +35,9 @@ export default (params: Params) => {
         body: bodyRowStrings
     });
 
-    if (markerRegex)
+    if (markerRegex) {
         tableString = tableString.replace(markerRegex, ' ');
-    
+    }
+
     return tableString.trim();
 }
